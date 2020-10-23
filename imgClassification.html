@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MLI</title>
+        <link rel="stylesheet" href="css/imgClassification.css">
+    </head>
+    <body>
+        <h1>Image Classifier</h1>
+        <div class="form1-container">
+            <h2>upload the file to classify</h2><br><br>
+            <form action="/load-classifier" enctype="multipart/form-data" method="POST" name="submiter">
+                <div>
+                    <input type="file" name="file1">
+                    <div>drop file here</div>
+                </div>
+                <br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,207 @@
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(168, 54, 54);
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+.signin-container{
+    color: white;
+    position: absolute;
+    /* margin: 0 0 5px 10px; */
+    top: 150px;
+    right: 10px;
+    min-width: 200px;
+}
+#documentation{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 5px;
+}
+#form1{
+    display: inline;
+}
+#signin{
+    background-color: black;
+    display: inline;
+    color: white;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#signin:hover{
+    background-color:white;
+    color: black;
+}
+.superHeading{
+    color: white;
+    position: relative;
+    margin-left: 5px;
+    top: 35px;
+    width: fit-content;
+}
+.img-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 200px;
+}
+#con1{
+    min-width: 400px;
+}
+#contentChanger{
+    color: black;
+    max-width: 500px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    padding: 10px;
+}
+
+.grid-container > a{
+    background-color: #272727;
+    border-radius: 5px;
+    height: 150px;
+    border: none;
+    transition: 0.1s;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 2px 8px 2px rgb(90, 90, 89);
+}
+.grid-container > a:hover{
+    box-shadow: 0px 2px 2px 1px rgb(90, 90, 89);
+}
+
+
+.grid-container > a:focus{
+    animation: ends 0.2s;
+}
+
+@keyframes ends{
+    0%{
+        position: relative;;
+    }
+    100%{
+        position: relative;
+        top: 5px;
+    }
+}
+
+
+
+.heading{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(184, 70, 70);
+}
+
+.grid-back{
+    color: white;
+    margin-left: 5px;
+    text-align: justify;
+}
+.imagetextContainer{
+    margin: 0px 10px 0 10px;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.imagetext{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    color: orange;
+    font-size: 50px;
+}
+#positioning2{
+    color: white;
+    font-size: large;
+}
+
+#formPosition{
+    left: 200px;
+}
+#joinforFree{
+    background-color: white;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+    transition: 0.1s;
+    text-decoration: none;
+}
+#joinforFree:hover{
+    background-color: rgb(137, 163, 235);
+    color: white;
+}
+
+.aboutus-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+}
+
+.aboutus-grid > div{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.AS-text{
+    text-align: justify;
+    position: relative;
+    margin-left: 80px;
+    color: white;
+    max-width: 500px;
+    top: 150px;
+}
+.AU-header{
+    text-align: center;
+    color:rgb(64, 64, 128);
+    font-size: xx-large;
+}
+.forimg{
+    max-width: 600px;
+}
+
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid white;
+}
+
+.footer-grid > div{
+    background-color: #25274D;
+    border: 1px solid black;
+    color: white;
+    padding-left: 20px;
+}
+.footer-heading{
+    color: white;
+    font-size: bold;
+    font-size: large;
+}
+.footer-text{
+    color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+body{
+    background-image: url("/images/classification.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form1-container{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    color: rgb(245, 245, 147);
+}
+form>div>input[type="file"]{
+    position: absolute;
+    top: 40px;
+    font-size: larger;
+    background-color:transparent;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 0px 150px 90px;
+    margin-left: -200px;
+    border: dotted rgb(168, 168, 235);
+    border-spacing: 10px;
+}
+form>div{
+    text-align: center;
+    padding: 10px 60px 150px 60px;
+}
+form>div>div{
+    color:rgb(168, 168, 235);
+    margin-top: 20px;
+}
+form>button{
+    font-size:larger;
+    background-color: transparent;
+    color: rgb(151, 243, 167);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-top: -20px;
+}
+form>button:hover{
+    color: rgb(177, 121, 230);
+}

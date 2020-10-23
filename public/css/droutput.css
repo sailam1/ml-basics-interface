@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(51, 40, 59);
+}
+div{
+    color: white;
+    font-size: xx-large;
+}
+.container{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    color: white;
+}
+#value{
+    position: relative;
+    font-size: 150px;
+    color: white;
+    top: -100px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MLI</title>
+        <link rel="stylesheet" href="./css/dr.css">
+    </head>
+    <body>
+        <h1 id="heading">Digit Recognition</h1>
+        <div class="formContainer">
+            <div id="subHeading">Upload your file here:</div>
+            <form action="/dr-loading" enctype="multipart/form-data" target="_myFrame" method="POST" name="xyz" id="xyz">
+                <div class="inputContainer">
+                    <input type="file" name="drFile">
+                    <div>drop file here</div>
+                </div>
+                <div>
+                    <canvas width="200px" height="200px" id="myCanvas"></canvas>
+                </div>
+                <br>
+                <button>Submit</button>
+            </form>
+            <!-- <canvas id="myCanvas" width="300px" height="200px"></canvas> -->
+        </div>
+        <script src="./javascript/dr.js"></script>
+        <script src="javascript/whiteboard.js"></script>
+        
+    </body>
+</html>

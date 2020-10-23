@@ -1,0 +1,46 @@
+body{
+    background-image: url("/images/numbers.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#heading{
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(236, 211, 157);
+}
+#subHeading{
+    font-size: x-large;
+    color: rgb(218, 218, 138);
+}
+.formContainer{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    color: white;
+}
+form>div>input[type=file]{
+    font-size: medium;
+    top: 40px;
+    margin-top: 20px;
+    border: 2px solid rgb(94, 88, 88);
+    padding: 20px 200px 200px 200px;
+}
+form>div>div{
+    position: relative;
+    font-size: larger;
+    color: rgb(131, 131, 182);
+    top: -100px;
+}
+form>button{
+    font-size: larger;
+    background-color: transparent;
+    color: rgb(157, 194, 84);
+    border: none;
+    cursor: pointer;
+}
+#myCanvas{
+    border: 1px solid white;
+    background-color: white;
+}
+
+
